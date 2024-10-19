@@ -4,12 +4,12 @@ imp_cv is CLI converter for imperial values and reverse made in Rust
 
 # To do 
 
-[x] Normal Length units
-[ ] Normal Weight units
-[ ] Celcius to Farenheit
-[x] Imperial Length units
-[ ] Imperial Weight units
-[ ] Farenheit to Celcius
+- [x] Normal Length units
+- [ ] Normal Weight units
+- [ ] Celcius to Farenheit
+- [x] Imperial Length units
+- [ ] Imperial Weight units
+- [ ] Farenheit to Celcius
 
 # Adding more units
 
