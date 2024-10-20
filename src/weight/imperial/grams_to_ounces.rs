@@ -8,7 +8,7 @@ pub fn convert(value: String){
             return;
         }
     };
-    let to_return : f64 = (start_value - 32.0) * (5.0/9.0);
+    let to_return : f64 = start_value / 28.3495;
 
-    println!("{} farenheit = *{}* celcius", start_value, to_return);
+    println!("{} grams = *{}* ounces", start_value, to_return);
 }

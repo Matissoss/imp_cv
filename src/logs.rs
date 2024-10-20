@@ -30,18 +30,7 @@ pub fn help() -> String{
     -i -tst tons -> converts tons to US tons (short tons)
     {}
     -n -fh farenheit -> converts farenheit to celcius
-    -i -c celcius -> converts celcius to farenheit
-
-    {}
-    Not all commands are availiable at the moment, as this is WIP Project
-    Currently program can/cannot do these sections:
-    [ ] Normal Length Units
-    [ ] Normal Weight Units
-    [ ] Normal Temperature Units
-    [ ] Imperial Length Units
-    [ ] Imperial Weight Units
-    [ ] Imperial Temperature Units
-    {}",
+    -i -c celcius -> converts celcius to farenheit",
 
     "imp_cv".bold().yellow(), 
     "Commands".bold().cyan(), 
@@ -50,7 +39,5 @@ pub fn help() -> String{
     "Imperial Length Units".bold().red(),
     "Imperial Weight Units".bold().yellow(),
     "Temperature Units".bold().green(),
-    "!!! ATTENTION !!!".bold().red(),
-    "!!! END !!!".bold().red()
     )
 }

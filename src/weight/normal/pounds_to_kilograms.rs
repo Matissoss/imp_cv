@@ -8,7 +8,8 @@ pub fn convert(value: String){
             return;
         }
     };
-    let to_return : f64 = (start_value - 32.0) * (5.0/9.0);
+    let to_return : f64 = start_value / 0.45359237;
 
-    println!("{} farenheit = *{}* celcius", start_value, to_return);
+    println!("{} pounds = *{}* kilograms", start_value, to_return);
 }
+
